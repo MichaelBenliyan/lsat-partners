@@ -1,33 +1,30 @@
 export default function Example() {
   return (
-    <div className="bg-gray-50 pt-12 sm:pt-16">
+    <div className="bg-white sm:pt-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-blue-600 sm:text-6xl">
+          <h2 className="text-4xl font-bold tracking-tight text-blue-600 sm:text-6xl">
             2022 Outcomes
           </h2>
-          {/* <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
-          </p> */}
         </div>
       </div>
-      <div className="mt-10 bg-white pb-12 sm:pb-16">
+      <div className="mt-4 bg-white pb-16 sm:pb-16 sm:mt-10">
         <div className="relative">
-          <div className="absolute inset-0 h-1/2 bg-gray-50" />
+          <div className="absolute inset-0 h-1/2" />
           <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl">
-              <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
-                <div className="flex flex-col border-b border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Admitted To One Of Their Target Schools</dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-blue-500">93%</dd>
+              <dl className="rounded-lg bg-white shadow-lg grid-cols-3 grid">
+                <div className="flex flex-col border-b border-t border-gray-100 pt-6 pb-6 pr-2 pl-2 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-xs font-medium leading-2 text-gray-500 sm:text-xl">Admitted To Target Schools</dt>
+                  <dd className="order-1 text-3xl font-bold tracking-tight text-blue-500 sm:text-5xl">93%</dd>
                 </div>
-                <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">In Scholarships Earned</dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-blue-500">$1M+</dd>
+                <div className="flex flex-col border-b border-t border-gray-100 pt-6 pb-6 pr-2 pl-2 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-xs font-medium leading-2 text-gray-500 sm:text-xl">In Scholarships Earned</dt>
+                  <dd className="order-1 text-3xl font-bold tracking-tight text-blue-500 sm:text-5xl">$1M+</dd>
                 </div>
-                <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                  <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Students Received Scholarships</dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-blue-500">81%</dd>
+                <div className="flex flex-col border-b border-t border-gray-100 pt-6 pb-6 pr-2 pl-2 text-center sm:border-0 sm:border-l sm:border-r">
+                  <dt className="order-2 mt-2 text-xs font-medium leading-2 text-gray-500 sm:text-xl">Received Scholarships</dt>
+                  <dd className="order-1 text-3xl font-bold tracking-tight text-blue-500 sm:text-5xl">81%</dd>
                 </div>
               </dl>
             </div>

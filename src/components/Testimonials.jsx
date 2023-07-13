@@ -37,7 +37,7 @@ export default function Example() {
     window.open(url, '_blank');
   };
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white sm:py-32">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-2xl sm:text-center">
       <h2 className="text-3xl font-bold tracking-tight text-blue-600 sm:text-6xl">You Can Be Our Next Success Story </h2>
@@ -47,7 +47,7 @@ export default function Example() {
     </div>
     <ul
       role="list"
-      className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
+      className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 sm:mt-20 sm:gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
     >
       {people.map((person) => (
         <div>
