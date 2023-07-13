@@ -14,7 +14,7 @@ export default function Example() {
               href="https://calendar.app.google/LzLeCSfPr8oS6Msr9"
               className="rounded-md bg-blue-600 px-6 py-2.5 text-sm sm:text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
-              Book Now
+              Step Two
             </a>
           </div>
         </div>

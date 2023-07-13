@@ -458,7 +458,7 @@ export default function Example() {
               Studying With Small Results? <br/>
               <span className="text-5xl text-blue-600 sm:text-7xl">We Change That.</span>
             </h1>
-            <p className="mt-6 text-m leading-8 text-gray-600">
+            <p className="mt-6 text-sm leading-8 text-gray-600 sm:text-lg">
               Drop an email for our free LSAT Prep Packet
             </p>
             <div className="mt-2 flex items-center justify-center gap-x-2">
@@ -482,7 +482,7 @@ export default function Example() {
                   Step One
                 </button>
             </div>
-            <p className="mt-4 text-xs text-gray-500" id="email-description">
+            <p className="mt-4 text-xxs sm:text-xs text-gray-500" id="email-description" >
           We keep your information private and secure.
         </p>
           </div>
