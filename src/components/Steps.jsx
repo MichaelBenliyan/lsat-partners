@@ -3,9 +3,9 @@ import { CheckIcon, HandThumbUpIcon, UserIcon, CheckCircleIcon } from '@heroicon
 const timeline = [
   {
     id: 1,
-    content: 'Sign Up for Free LSAT Prep Packet ',
+    content: 'Sign Up for', 
     target: 'LSAT Prep Packet',
-    href: "https://calendar.app.google/LzLeCSfPr8oS6Msr9",
+    href: "#Packet",
     date: 'Sep 30',
     datetime: '2020-09-30',
     icon: CheckCircleIcon,
@@ -103,9 +103,11 @@ export default function Example() {
                             {event.content}
                           </span>
                           <span className="font-medium text-m sm:text-xl text-gray-900">&nbsp;</span>
-                          <span href={event.href} className="font-bold text-m sm:text-xl text-blue-500">
-                            <u>{event.target}</u>
-                          </span>
+                          <a href={event.href}>
+                            <span className="font-bold text-m sm:text-xl text-blue-500">
+                              {event.target}
+                            </span>
+                          </a>
                         </a>
                       </div>
                     </div>
