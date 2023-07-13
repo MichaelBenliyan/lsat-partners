@@ -309,6 +309,7 @@ const navigation = [
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [email, setEmail] = useState('');
+  const [button, setButton] = useState('Step One');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -321,9 +322,10 @@ export default function Example() {
       body: JSON.stringify({ email }),
     });
 
-    if (response.ok) {
+    if (await response.ok) {
       // Reset the input field on successful submission
       setEmail('');
+      setButton('Received!');
     }
   };
 
@@ -483,7 +485,7 @@ export default function Example() {
                   className="h-10 rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   onClick={handleSubmit} // This will call your form submission function
                 >
-                  Step One
+                  {button}
                 </button>
             </div>
             <p className="mt-4 text-xxs sm:text-xs text-gray-500" id="email-description" >
