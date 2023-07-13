@@ -16,9 +16,9 @@ export default function Home() {
       <HeroWithImageTiles />
       <Outcomes />
       <Testimonials />
+      <ScheduleMeeting />
       <WhatSetsUsApart />
       <Steps />
-      <ScheduleMeeting />
       <Logos />
       <Footer />
     </>

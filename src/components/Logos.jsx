@@ -1,7 +1,9 @@
 export default function Example() {
   return (
-    <div className="bg-white py-24 sm:py-32 text-center">
-      <h2 className="text-3xl font-bold tracking-tight text-blue-500 sm:text-5xl pb-10">Our Alumni Receive Offers From</h2>
+    <div className="bg-white py-16 sm:py-32 text-left px-6 mx-auto md:text-center">
+      <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <h2 className="text-4xl font-bold tracking-tight text-blue-600 sm:text-5xl pb-10">Our Alumni Offers</h2>
+      </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
           <div className="bg-gray-400/5 p-8 sm:p-10">
@@ -76,7 +78,7 @@ export default function Example() {
               height={48}
             />
           </div>
-          <div className="bg-gray-400/5 p-6 sm:p-10">
+          <div className="bg-gray-400/5 p-6 sm:p-10 hidden md:block">
             <img
               className="max-h-12 w-full object-contain"
               src="/USD.png"

@@ -8,7 +8,7 @@ export default function Example() {
           </h2>
         </div>
       </div>
-      <div className="mt-4 bg-white pb-16 sm:pb-16 sm:mt-10">
+      <div className="mt-4 bg-white pb-20 sm:pb-16 sm:mt-10">
         <div className="relative">
           <div className="absolute inset-0 h-1/2" />
           <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
