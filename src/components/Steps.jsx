@@ -69,7 +69,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <div className="flex flex-col sm:flex-row bg-white px-6">
+    <div id="Steps"className="flex flex-col sm:flex-row bg-white px-6">
       <div className="flex-grow flex items-center justify-left sm:justify-center whitespace-normal">
         <div>
           <h3 className="text-4xl leading-8 font-bold text-left text-blue-600 sm:mb-5 tracking-tight sm:text-6xl">Interested?</h3>

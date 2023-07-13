@@ -4,7 +4,7 @@ import HeroWithImageTiles from '../components/HeroWithImageTiles';
 import CenteredHeader from '../components/CenteredHeader';
 import Testimonials from '../components/Testimonials';
 import Steps from '../components/Steps';
-import WhatSetsUsApart from '../components/WhatSetsUsApart';
+import OurMethod from '../components/OurMethod';
 import Logos from '../components/Logos';
 import Outcomes from '../components/Outcomes';
 import ScheduleMeeting from '../components/ScheduleMeeting';
@@ -17,7 +17,7 @@ export default function Home() {
       <Outcomes />
       <Testimonials />
       <ScheduleMeeting />
-      <WhatSetsUsApart />
+      <OurMethod />
       <Steps />
       <Logos />
       <Footer />

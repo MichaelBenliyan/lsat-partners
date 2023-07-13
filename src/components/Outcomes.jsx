@@ -1,6 +1,6 @@
 export default function Example() {
   return (
-    <div className="bg-white sm:pt-16">
+    <div id="Outcomes" className="bg-white sm:pt-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-4xl font-bold tracking-tight text-blue-600 sm:text-6xl">
