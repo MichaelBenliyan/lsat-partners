@@ -43,7 +43,7 @@ const timeline = [
   // },
   {
     id: 4,
-    content: 'Receive Personal Study Plan',
+    content: 'Admissions Decision / Personal Study Plan',
     target: '',
     href: "https://calendar.app.google/LzLeCSfPr8oS6Msr9",
     date: 'Sep 30',
@@ -53,7 +53,7 @@ const timeline = [
   },
   {
     id: 5,
-    content: 'Start Sessions',
+    content: 'Access To Sessions and Resources',
     target: '',
     href: '#',
     date: 'Oct 4',
@@ -98,7 +98,7 @@ export default function Example() {
                     </div>
                     <div className="flex min-w-0 flex-1 justify-between space-x-4 ">
                       <div className="flex items-center justify-center">
-                        <a>
+                        <div>
                           <span className="font-medium  text-m sm:text-xl text-gray-900">
                             {event.content}
                           </span>
@@ -108,7 +108,7 @@ export default function Example() {
                               {event.target}
                             </span>
                           </a>
-                        </a>
+                        </div>
                       </div>
                     </div>
                   </div>
