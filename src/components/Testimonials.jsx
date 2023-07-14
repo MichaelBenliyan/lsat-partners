@@ -41,7 +41,7 @@ export default function Example() {
     <div className="bg-white pb-16 sm:py-32">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-2xl sm:text-center">
-      <h2 id="Testimonials" className="text-3xl font-bold tracking-tight text-blue-600 sm:text-6xl">You Can Be Our Next Success Story </h2>
+      <h2 id="Testimonials" className="text-3xl font-bold tracking-tight text-blue-600 sm:text-6xl">Be Our Next Success Story </h2>
       {/* <p className="mt-6 text-lg leading-8 text-gray-600">
         Here if we want it
       </p> */}
