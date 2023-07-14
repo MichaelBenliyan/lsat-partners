@@ -1,6 +1,6 @@
 const people = [
   {
-    name: 'Hakop Sinapyan',
+    name: 'Hakop S.',
     role: 'Panorama City, CA',
     imageUrl:
       'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -8,7 +8,7 @@ const people = [
     reviewURL: "https://www.yelp.com/biz/lsat-partners-glendale-2?hrid=BRfNBz7n87FJB2-eb9pgig&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
   },
   {
-    name: 'Hakop Pilavjian',
+    name: 'Hakop P.',
     role: 'Glendale, CA',
     imageUrl:
       'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
@@ -16,14 +16,14 @@ const people = [
     reviewURL: "https://www.yelp.com/biz/lsat-partners-glendale-2?hrid=bmOVjnXKLVwQU936kPqxLw&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)"
   },
   {
-    name: 'Neron Apiyan',
+    name: 'Neron A.',
     role: 'Los Angeles, CA',
     reviewURL:
       'https://www.yelp.com/biz/lsat-partners-glendale-2?hrid=96IBavgquBoBUkG-Szp38w&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)',
     bio: "I did tutoring for the LSAT with my Mike for about 4 months and it was the best decision I made for my future. I ended up getting a 170 on my LSAT and couldn't have done it without the help of Mike. I highly recommend to go to Mike if you want to succeed on this exam. He is very professional, always responds back in time, patient with his students, makes personal study plans, and just an amazing tutor!!!",
   },
   {
-    name: 'Tony G',
+    name: 'Tony G.',
     role: 'Tujunga, CA',
     imageUrl:
       'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
